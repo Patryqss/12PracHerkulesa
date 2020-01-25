@@ -30,7 +30,7 @@ const main = async () => {
   app.use('/', home);
   app.use('/api/comments', comment);
 
-  Handle React routing, return all requests to React app
+  // Handle React routing, return all requests to React app
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/../frontend/build/index.html'));
   });
