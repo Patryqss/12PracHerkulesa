@@ -46,6 +46,17 @@ const About = () => {
       </div>
       <a href='https://i.imgur.com/3oSWwGR.png' target='blank' className="riht foto"><img alt='Screen z gry' src={'https://i.imgur.com/3oSWwGR.png'} /></a>
     </div>
+    <Divider
+          as='h4'
+          className='header'
+          horizontal
+          style={{ margin: '3em 0em', textTransform: 'uppercase', fontFamily: 'Dalek', color: 'white' }}
+        >
+          Zobacz zwiastun
+    </Divider>
+    <div className='youtube'>
+      <iframe className="centr" width="560" height="315" src="https://www.youtube.com/embed/2Y-7EDvH7To" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </div>
   );
 };
