@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Dalek';
+    src: URL('./dalek.regular.ttf') format('truetype');
+}
+
+.appbar{
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+}
+
+.newsPage {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1em;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+    grid-gap: 1em;
+    align-items: center;
+}
+
+.info {
+    font-size: 1.2em;
+    color: white;
+}
+
+img {
+    max-width: 90%;
+}
+
+.centr {
+    grid-column-end: span 2;
+    text-align: center;
+}
+
+.lefft {
+    text-align: right;
+}
+
+.riht {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 0.2em;
+}
+
+.news, .comSection, .about, .contactSection {
+    font-family: 'Verdana';
+}
+
+.comSection {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.comments {
+    min-width: 50em;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field1{
+    min-width: 20em;
+}
+
+.field2 {
+    min-width: 40em;
+}
+
+label {
+    color: white !important;
+}
+
+@media all and (max-width: 700px) {
+    .comments {
+        min-width: 10em;
+    }
+
+    .field1{
+        min-width: 10em;
+    }
+    
+    .field2 {
+        min-width: 10em;
+    }
+}
+
+#footer {
+    color: #F8F8FF99;
+    text-align: center;
+    bottom: 2px;
+    background-color: rgba(4, 12, 6, 0.6);
+}

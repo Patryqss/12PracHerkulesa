@@ -1,2 +1,3 @@
-# 12PracHerkulesa
-Strona promująca wydawaną przeze mnie grę
+# 12 Prac Herkulesa
+
+Strona promująca moją grę komputerową
