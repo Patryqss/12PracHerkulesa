@@ -43,6 +43,11 @@ const Home = () => {
       <div className="newsPage">
         <div className='news'>
         <News
+            header="Nowy trailer, data premiery i inne" 
+            date="12 marca 2020" 
+            text='Już za dwa dni oficjalna premiera "12 Prac Herkulesa". Po miesiącu testów i poprawek, w końcu udało nam się zakończyć wszystkie prace nad grą. Obserwuj nasz fanpage na Facebooku, aby poznać więcej szczegółów i obejrzeć nowy trailer, tym razem w języku angielskim.'
+        />
+        <News
             header="Beta-Testy rozpoczęte" 
             date="1 lutego 2020" 
             text='Dziś rozpoczęły się oficjalne beta-testy "12 Prac Herkulesa". Przez najbliższy miesiąc, razem z 16 testerami będziemy szukać błędów, usprawniać mechanikę oraz doszlifowywać każdy poziom, aby już w marcu wydać w pełni funkcjonalną grę. Jeśli dopiero teraz odkryłeś naszą stronę, wciąż jeszcze nie jest za późno, by dołączyć do grona testerów. Szczegóły jak to zrobić, przeczytasz w poprzednim wpisie.'

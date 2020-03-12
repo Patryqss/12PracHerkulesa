@@ -1,8 +1,6 @@
 import React from 'react';
 import { Divider} from 'semantic-ui-react'
 
-// https://imgur.com/a/ulr23a6
-
 const About = () => {
   return (
     <div>
@@ -26,15 +24,15 @@ const About = () => {
         <li className="point"><span role='img' aria-label=''>🐎</span> Klaczom Diomedesa,</li>
         <li className="point"><span role='img' aria-label=''>🐶</span> a nawet Cerberowi</li>
       </div>
-      <a href='https://i.imgur.com/qrrPwlD.png' target='blank' className="lefft foto"><img alt='Screen z gry' src={'https://i.imgur.com/qrrPwlD.png'} /></a>
-      <a href='https://forum.gmclan.org/uploads/monthly_2019_04/screen2.thumb.png.57a7cd712a27e3084ad40607b798ad6a.png' target='blank' className="riht foto"><img alt='Screen z gry' src={'https://forum.gmclan.org/uploads/monthly_2019_04/screen2.thumb.png.57a7cd712a27e3084ad40607b798ad6a.png'} /></a>
+      <a href='https://i.imgur.com/mMMIAgJ.png' target='blank' className="lefft foto"><img alt='Screen z gry' src={'https://i.imgur.com/mMMIAgJ.png'} /></a>
+      <a href='https://i.imgur.com/eRwCw1z.png' target='blank' className="riht foto"><img alt='Screen z gry' src={'https://i.imgur.com/eRwCw1z.png'} /></a>
       <div className="centr info">
       Oprócz tego, będziesz musiał złapać Łanię cerynejską oraz Dzika erymantejskiego, wysprzątać stajnię Augiasza, sprowadzić byki Geriona, odnaleźć jabłka w labiryncie Hesperyd oraz przekonać Amazonki do oddania Ci pasa swej królowej.
       </div>
       <div className="lefft info">
       Na szczęście nie będziesz przy tym sam! Nad Herkulesem czuwa Atena, bogini mądrości, sztuki i sprawiedliwej wojny. Wesprze bohatera dobrą radą, a czasem nawet ześle przedmioty, które okażą się niezwykle przydatne podczas podróży.
       </div>
-      <a href='https://i.imgur.com/qpGIiUJ.png' target='blank' className="riht foto"><img alt='Screen z gry' src={'https://i.imgur.com/qpGIiUJ.png'} /></a>
+      <a href='https://i.imgur.com/RAIYRI1.png' target='blank' className="riht foto"><img alt='Screen z gry' src={'https://i.imgur.com/RAIYRI1.png'} /></a>
       <a href='https://i.imgur.com/oJiVcBx.png' target='blank' className="lefft foto"><img alt='Screen z gry' src={'https://i.imgur.com/oJiVcBx.png'} /></a>
       <div className="riht info">
       Zadania są wymagające; czasem trzeba użyć spytu, czasem logicznego myślenia, a w niektórych niezwykle pomocna może okazać się znajomość mitu. Każde z nich możesz wykonywać dowolnej kolejności, a w nagrodę otrzymasz jeden z dwunastu przedmiotów do skompletowania swojego ekwipunku, z którym gra będzie jeszcze ciekawsza!
@@ -55,10 +53,12 @@ const About = () => {
           Zobacz zwiastun
     </Divider>
     <div className='youtube'>
-      <iframe className="centr" width="560" height="315" src="https://www.youtube.com/embed/2Y-7EDvH7To" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="centr" width="560" height="315" src="https://www.youtube.com/embed/zgYzBYu1ySU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
   );
 };
 
 export default About;
+
+//https://imgur.com/a/ulr23a6

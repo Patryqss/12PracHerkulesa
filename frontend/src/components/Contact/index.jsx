@@ -44,8 +44,8 @@ class Contact extends React.Component {
                 </Divider>
 
                 <p className="info" style={{textAlign: 'center'}}>
-                    Chcesz zapisać się do zamkniętej bety i zostać testerem? A może po prostu chcesz mi coś powiedzieć na temat gry lub strony? <br></br>
-                    Jeśli na któreś z tych pytań odpowiedziałeś tak, to wypełnij poniższy formularz. Postaram się odpisać tak szybko, jak tylko to możliwe!
+                    Masz jakieś pytania na temat gry lub strony? <br></br>
+                    Wypełnij poniższy formularz, a postaram się odpisać tak szybko, jak tylko to możliwe!
                 </p>
 
                 <Form 
