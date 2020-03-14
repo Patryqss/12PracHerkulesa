@@ -31,7 +31,17 @@ const Home = () => {
         }}
         />
       </Container>
-
+      <Divider
+          as='h4'
+          className='header'
+          horizontal
+          style={{ margin: '3em 0em', textTransform: 'uppercase', fontFamily: 'Dalek', color: 'white' }}
+        >
+          Pobierz gre
+      </Divider>
+      <div className="itch">
+        <iframe frameborder="0" src="https://itch.io/embed/585723?linkback=true&amp;border_width=3&amp;bg_color=63c64d&amp;fg_color=222222&amp;link_color=d90404&amp;border_color=529365" width="556" height="171"><a href="https://patryqss.itch.io/12-labours-of-hercules">12 Labours of Hercules by Patryqss</a></iframe>
+      </div>
       <Divider
           as='h4'
           className='header'
@@ -42,6 +52,11 @@ const Home = () => {
       </Divider>
       <div className="newsPage">
         <div className='news'>
+        <News
+            header="12 Prac Herkulesa już dostępne!" 
+            date="14 marca 2020" 
+            text='Już dziś możesz zagrać w "12 Prac Herkulesa"! Aby to zrobić, możesz wejść na stronę patryqss.itch.io/12-labours-of-hercules i kupić ją tam za jedyne 1,5€. Możesz też użyć wygodnej ramki znajdującej się powyżej. Nie czekaj, pobierz już dziś i udowodnij, że Ty również możesz dokonać boskich czynów!'
+        />
         <News
             header="Nowy trailer, data premiery i inne" 
             date="12 marca 2020" 
